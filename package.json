@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Jessie Puls <jpuls@pillartechnology.com>",
+  "license": "",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-jasmine-ajax": "^0.1.13",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.13"
+  }
+}
