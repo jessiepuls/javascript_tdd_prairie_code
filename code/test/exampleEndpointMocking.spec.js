@@ -13,6 +13,8 @@ ws.exampleEndpointCall = function (someArgument) {
             ws.setValue(response.data.someProperty);
         }
     };
+
+    request.send();
 };
 
 ws.setValue = function(value) {
