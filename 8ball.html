@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="code/src/8ball.js"></script>
+  </head>
+  <body style="background-image: url('8_ball_face.jpg'); background-repeat: repeat">
+    <div style="text-align: center; padding-top: 50px;">
+      <div style="background-color: white; padding: 20px; width: 70%; margin: auto">
+        What answers do you seek? <input type="text" id="question" /> <button onclick="ball.getAnswer($('#question').val())">Submit</button>
+        <p id="answer"></p>
+        <div id="image"></div>
+      </div>
+    </div>
+  </body>
+</html>
